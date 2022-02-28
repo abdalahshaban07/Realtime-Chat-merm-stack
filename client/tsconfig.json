@@ -4,7 +4,6 @@
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
-    "skipLibCheck": false,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -16,6 +15,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "noImplicitAny": false,
+    "skipLibCheck": true,
+    "outDir": "build",
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

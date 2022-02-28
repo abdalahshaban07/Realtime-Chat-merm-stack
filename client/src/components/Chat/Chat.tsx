@@ -18,7 +18,8 @@ const Chat = () => {
     Array<{ user: string; text: string }>
   >([{ user: "", text: "" }]);
   const [users, setUsers] = useState("");
-  const ENDPOINT = "http://localhost:5000";
+  // const ENDPOINT = "http://localhost:5000";
+  const ENDPOINT = "https://realtime-chat-app-mern.herokuapp.com/";
 
   useEffect(() => {
     const { name, room } = parse(location.search);
