@@ -19,12 +19,6 @@ const TextContainer = ({ users }) => (
           ❤️
         </span>
       </h2>
-      <h2>
-        Try it out right now!{" "}
-        <span role="img" aria-label="emoji">
-          ⬅️
-        </span>
-      </h2>
     </div>
     {users.length ? (
       <div>
